@@ -10,6 +10,16 @@ public class emplyeewagebuilder {
 	         System.out.println("Employee is Present");
 	      else
 	         System.out.println("Employee is Absent");
+	      
+	      int emphr = 8;
+	      int empratehr = 20;
+	      int a;
+	      if (empCheck == 1)
+	      	{
+	    	  a = emphr * empratehr;
+	    	  System.out.println("Employee is Present Full Day");	    	  
+	    	  System.out.println("The Daily Wages of a empolyee in Rupees is: " +a);
+	      	}  
 	}
 
 }
